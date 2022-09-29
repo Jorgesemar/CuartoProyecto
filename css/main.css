@@ -1,0 +1,46 @@
+.jumbotrom {
+    background-color:black ;
+color:whitesmoke;
+margin-bottom: 5px;
+margin-top: 30px;
+}
+
+footer {
+    background-color: black;
+    color: whitesmoke;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right:15px;
+}
+
+.card-suplementos {
+    flex: 1 150px ;
+    padding: 3px 0px 3px 0px;
+    margin-top: 5px;
+}
+
+.boton-informacion {
+    width: 90%;
+    margin-left: 11px; 
+
+}
+
+
+.footer-address-icon {
+  padding-right: 10px;
+  font-size: 18px;
+}
+
+.navbar {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+.img-fluid {
+    width: 100%;
+    height: 250px;
+    margin-top: 15PX;
+    margin-bottom: 15PX;
+}
+
+

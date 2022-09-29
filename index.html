@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <title> Has perdido</title>
+</head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+     <nav class=" navbar navbar-expand-md fixed-top navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"> El Juego</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="./about.html">Nosotros</a></li>
+            <li class="nav-item"><a class="nav-link" href="./prices.html">Precios</a></li>
+            <li class="nav-item"><a class="nav-link" href="./termandconditions.html">Términos y condiciones</a></li>
+            <li class="nav-item"><a class="nav-link" href="./contact.html">Contacto</a></li>
+        </ul>
+     </div>
+    </nav>
+
+
+    <div class="jumbotrom p-5 rounded-3">
+        <h1 class="display-5 fw-bold">El juego</h1>
+    </div>
+
+
+<div class="container">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item active" aria-current="page">Home</li>
+        </ol>
+    </nav>
+
+    <div class="row">
+        <div class="col">
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#nuestros" aria-controls="multicollapse1" aria-expanded="false">Nuestos Productos</button>
+        </div>
+        <div class="col">
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#comprar" aria-controls="multicollapse2" aria-expanded="false">¿Comó puedo comprar?</button>
+        </div>
+        <div class="col">
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#pago" aria-controls="multicollapse2" aria-expanded="false">Metodos de Pago</button>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-4 collapse multi-collapse" id="nuestros">
+            <h3>Nuestros Productos</h3>
+            <p>Los ultimos juegos tirados de precio.</p>
+        </div>
+        <div class="col-sm-4 collapse multi-collapse" id="comprar">
+            <h3>¿Comó puedo comprar?</h3>
+            <p>Tenemos habilitadas nuestras plataformar para que realices tus pedidos en linea, whatsapp, Instragram o Facebook</p>
+        </div>
+        <div class="col-sm-4 collapse multi-collapse" id="pago">
+            <h3>Metodos de Pago</h3>
+            <p>Aceptamos PayPal, Tranferencia Bancaria y Bitcoin </p>
+        </div>
+    </div>
+        
+
+   
+
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+               <img src="https://external-preview.redd.it/Frdz4i4SpwZeBnfKYAjHCPcyDkGYTAshk-pk-iG155s.jpg?auto=webp&s=981a72d58bec14bb12ec60ebbcdc97410ff2e47e" class="d-block w-100 img-fluid" alt="Responsive image">
+          </div>
+          <div class="carousel-item">
+                <img src="https://gepig.com/game_cover_460w/6169.jpg" class="d-block w-100 img-fluid" alt="Responsive image">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div> 
+
+
+
+
+    <div class="d-flex flex-wrap">
+        <div class=" card card-suplementos d-flex flex-column justify-content-between m-lg-1">
+            <div class="card-body"> 
+                <h5 class="card-title" data-bs-toggle="tooltip" data-placement="top" title="Existencias Limitadas">Bloodborne</h5>
+                    <img class="card-img-top" src="https://los40es00.epimg.net/los40/imagenes/2017/01/25/videojuegos/1485351716_274887_1485351793_sumario_normal.jpg" alt="">
+                <p class="card-text">Tremendo juegardo, quiero siete copias</p>
+            </div> 
+            <div>
+                <button type="button" class="btn btn-primary boton-informacion" 
+                data-bs-toggle="popover" title="¿Quieres el tuyo?" data-bs-content="Existencias Limitadas">Información</button>
+            </div>
+        </div>
+        <div class=" card card-suplementos d-flex flex-column justify-content-between m-lg-1">
+            <div class="card-body">
+                <h5 class="card-title" data-bs-toggle="tooltip" data-placement="top" title="Existencias Limitadas">Dishonored</h5>
+                   <img class="card-img-top" src="https://los40es00.epimg.net/los40/imagenes/2017/01/25/videojuegos/1485351716_274887_1485351949_sumario_normal.jpg" alt="">
+                <p>Tremendo juegardo, quiero siete copias</p>
+                
+            </div>
+            <div>
+                <button type="button" class="btn btn-primary boton-informacion" 
+                data-bs-toggle="popover" title="¿Quieres el tuyo?" data-bs-content="Existencias Limitadas">Información</button>
+            </div>
+        </div>
+        <div class=" card card-suplementos d-flex flex-column justify-content-between m-lg-1">
+                <div class="card-body">
+                    <h5 class="card-title" data-bs-toggle="tooltip" data-placement="top" title="Existencias Limitadas">Bioshock</h5>
+                        <img class="card-img-top" src="https://www.neoteo.com/wp-content/images/BAC6.jpg" alt="">
+                    <p>La saga entera papaaaaa, a que esperaaas</p>
+                </div>
+                <div>
+                    <button type="button" class="btn btn-primary boton-informacion" 
+                    data-bs-toggle="popover" title="¿Quieres el tuyo?" data-bs-content="Existencias Limitadas">Información</button>
+                </div>
+        </div>
+        <div class="card card-suplementos d-flex flex-column justify-content-between m-lg-1">
+                <div class="card-body">
+                    <h5 class="card-title" data-bs-toggle="tooltip" data-placement="top" title="Existencias Limitadas">God of War: Ragnarök</h5>
+    <img class="card-img-top" src="https://images-na.ssl-images-amazon.com/images/I/81zQed-L3eL._AC._SR360,460.jpg" alt="">
+                    <p>Kratos siempre es una buena opción, asi, sosegada y pacifica</p>
+                </div>
+                <div>
+                    <button type="button" class="btn btn-primary boton-informacion" 
+                    data-bs-toggle="popover" title="¿Quieres el tuyo?" data-bs-content="Existencias Limitadas">Información</button>
+                </div>
+        </div>
+        <div class="card card-suplementos d-flex flex-column justify-content-between m-lg-1">
+            <div class="card-body">
+                    <h5 class="card-title" data-bs-toggle="tooltip" data-placement="top" title="Existencias Limitadas">Fortnite</h5>
+                         <img class="card-img-top" src="https://uvejuegos.com/img/caratulas/59289/Fortnite-PS4-EU.jpg" alt="">
+                    <p>No</p>
+                </div>
+            <div>
+                    <button type="button" class="btn btn-primary boton-informacion" 
+                    data-bs-toggle="popover" title="¿Quieres el tuyo?" data-bs-content="Existencias Limitadas">Información</button>
+            </div>
+        </div>
+        <div class="card card-suplementos d-flex flex-column justify-content-between m-lg-1">
+            <div class="card-body">
+                    <h5 class="card-title" data-bs-toggle="tooltip" data-placement="top" title="Existencias Limitadas">Spider-man: Miles Morales</h5>
+                        <img class="card-img-top" src="https://blogdesuperheroes.es/wp-content/plugins/BdSGallery/BdSGaleria/95917.jpg" alt="">
+                    <p>Juegardo pero si tienes la ps5 invitate a unas partidas, que la baina esta dificil</p>
+                </div>
+            <div>
+                    <button type="button" class="btn btn-primary boton-informacion" 
+                    data-bs-toggle="popover" title="¿Quieres el tuyo?" data-bs-content="Existencias Limitadas">Información</button>
+            </div>
+        </div>
+    </div>
+    <h5>¿No encontraste lo que buscabas? Contactanos para conocer tus necesidades</h5>
+    <button type="button" class="btn btn-outline-success" data-bs-toggle="modal"
+    data-bs-target="#contacto">Contacto</button>
+    <div class="modal fade" id="contacto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Contacto como Distribuidores</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">Tu Correo:</label>
+                        <input type="text" class="form-control" id="recipient-name">
+                    </div>
+                    <div class="form-group">
+                        <label for="message-text" class="col-form-label">Mensaje:</label>
+                        <textarea class="form-control" id="message-text"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success">Enviar</button>
+            </div>
+        </div>
+      </div>
+    </div>
+
+</div>
+
+<footer>
+<div class="row">
+    <div class="col-sm-4 d-flex flex-column">
+    <a href="http://www.Facebook.com">Facebook</a>
+    <a href="http://www.Twitter.com">Twitter</a>
+    <a href="http://www.Instgram.com">Instagram</a>
+    </div>
+    <div class="col-sm-4">
+
+        <address>
+            <h1>Contacto</h1>
+           <p><ion-icon name="location" class="footer-address-icon"></ion-icon>Madrid, Madrid</p>
+           <p><ion-icon name="phone-portrait-outline" class="footer-address-icon"></ion-icon> +34 0000-0000 </p>
+           <p><ion-icon name="mail" class="footer-address-icon"></ion-icon>ElJuego.HasPerdido@gmail.com </p>
+        </address>
+    </div>
+    <div class="col-sm-4 d-flex flex-column align-items-end">
+        <a href="http://www.Facebook.com">Nosotros</a>
+        <a href="http://www.Twitter.com">Precios</a>
+        <a href="http://www.Instgram.com">Terminos y condiciones</a>
+        </div>
+</div>
+</footer>
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="js/index.js"></script>
+
+<script>$(function(){
+    $("[data-bs-toggle='tooltip']").tooltip();
+    $("[data-bs-toggle='popover']").popover();
+    $('.carousel').carousel({Interval:2000});
+    });</script>
+  </body>
+</html>
